@@ -1,0 +1,37 @@
+@media only screen and (max-width: 700px){
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     } 
+
+     .cabecalho  {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .cabecalho-menu {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        padding: 1px;
+        font-size: 10px;
+    }
+
+    .cabecalho-menu-item {
+        display: none;
+    }
+
+    .conteudo-principal-imagem {
+        height: 350px;
+    }
+
+    .conteudo {
+        text-align: center;
+    }
+    
+}
+
+
